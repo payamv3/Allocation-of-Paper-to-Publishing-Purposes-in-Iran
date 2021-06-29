@@ -1,4 +1,4 @@
-install beautifulsoup4
+pip3 install beautifulsoup4
 import streamlit as st
 import numpy as np
 import pandas as pd
