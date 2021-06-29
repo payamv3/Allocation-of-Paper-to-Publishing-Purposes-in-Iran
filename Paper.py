@@ -8,7 +8,7 @@ import sys
 import time
 from bs4 import BeautifulSoup
 
-paper = pd.read_excel(PaperSystem.xlsx')
+paper = pd.read_excel('PaperSystem.xlsx')
     
 st.write("""
 # Allocation of Paper to Publishers in Iran
