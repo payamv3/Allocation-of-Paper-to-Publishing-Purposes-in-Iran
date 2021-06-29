@@ -4,6 +4,7 @@ import pandas as pd
 import os
 import requests
 import csv
+import xlrd
 import sys
 import time
 from bs4 import BeautifulSoup
