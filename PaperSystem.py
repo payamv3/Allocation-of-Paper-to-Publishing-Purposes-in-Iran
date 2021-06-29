@@ -6,7 +6,7 @@ import requests
 import csv
 import sys
 import time
-from bs4 import BeautifulSoup
+import BeautifulSoup
 
 paper = pd.DataFrame()
 
