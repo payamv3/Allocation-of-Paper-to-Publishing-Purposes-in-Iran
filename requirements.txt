@@ -2,3 +2,4 @@ streamlit
 altair
 beautifulsoup4
 requests
+xlrd
