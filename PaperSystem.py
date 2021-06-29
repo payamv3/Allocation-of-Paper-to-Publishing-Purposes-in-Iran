@@ -6,7 +6,10 @@ import requests
 import csv
 import sys
 import time
-import BeautifulSoup
+try:
+    from bs4 import BeautifulSoup
+except :
+    from BeautifulSoup import BeautifulSoup
 
 paper = pd.DataFrame()
 
