@@ -16,7 +16,7 @@ for page_no in range(1, 253):
         'page': page_no,
         'size': 50
     }
-    page = requests.get('https://paperds.ir/book-publisher-report?', params=data, verify = False)
+    page = requests.get('https://paperds.ir/book-publisher-report', params=data, verify = False)
     soup = BeautifulSoup(page.text, 'html.parser')   
     table = soup.find_all('table')
     df = pd.read_html(str(table))[0]
