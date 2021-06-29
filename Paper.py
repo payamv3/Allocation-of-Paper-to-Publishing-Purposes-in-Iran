@@ -1,4 +1,3 @@
-pip3 install beautifulsoup4
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -7,7 +6,7 @@ import requests
 import csv
 import sys
 import time
-from bs4 import BeautifulSoup
+import BeautifulSoup
 
 paper = pd.DataFrame()
 
